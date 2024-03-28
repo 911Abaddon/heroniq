@@ -1,0 +1,18 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Adjust based on desired size and number of columns */
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  .grid-item {
+    background-color: #f0f0f0;
+    height: 100px; /* Adjust based on desired height */
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  }
+  
+  .grid-item:hover {
+    transform: translateY(-10px); /* Elevate item on hover */
+    background-color: #cccccc; /* Change color on hover */
+  }
+  

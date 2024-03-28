@@ -1,0 +1,46 @@
+/* Gradient Button styles */
+.bg-gradient-container {
+  background-color: transparent; /* Remove background color */
+  min-height: auto; /* Remove minimum height */
+  display: inline-flex; /* Use inline-flex to ensure alignment */
+  align-items: center; /* Align items vertically */
+}
+
+.gradient-button.btn-signup {
+  color: #ffffff; /* White text color */
+  font-weight: 500; /* Medium font weight */
+  padding: 10px 15px; /* Adjust padding */
+  border-radius: 20px; /* Adjust this value to increase or decrease the roundness */
+  overflow: hidden; /* Hide overflowing content */
+  position: relative; /* Positioning */
+  cursor: pointer; /* Changes the cursor to a pointer on hover */
+  transition: transform 0.3s ease; /* Transition effect */
+  margin-left: 10px; /* Space between Log in and Sign Up buttons */
+}
+
+.gradient-button:hover {
+  transform: scale(1.05); /* Scale on hover */
+}
+
+.gradient-button:active {
+  transform: scale(0.95); /* Scale when active */
+}
+
+.button-text {
+  position: relative; /* Positioning */
+  z-index: 10; /* Ensure text is above background */
+}
+
+.gradient-background {
+  background-image: linear-gradient(to right, #8f14e6, #e614dc, #e61453, #e68414, #e6e614); /* Gradient background */
+  position: absolute; /* Positioning */
+  z-index: 0; /* Ensure background is behind text */
+  inset: 0; /* Cover entire button area */
+  width: 400%; /* Extend gradient width */
+  left: -120.483px; /* Initial position */
+}
+
+/* Additional styles to align button with the Log in button */
+.gradient-button.btn-signup {
+  margin-left: 10px; /* Space between Log in and Sign Up buttons */
+}

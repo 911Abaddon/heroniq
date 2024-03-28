@@ -1,0 +1,69 @@
+/* GradientButton.css */
+
+.bg-gradient-container {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 0; /* Adjusted or removed negative margin */
+}
+
+.gradient-button {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif; /* Ensuring font family matches */
+    -webkit-font-smoothing: antialiased; /* Smooth text rendering */
+    text-align: center; /* Text alignment */
+    color: #ffffff; /* Assuming white text for visibility */
+    display: inline-flex; /* Ensuring the button uses inline-flex for alignment */
+    align-items: center; /* Vertical alignment within the button */
+    margin: 0 10px; /* Horizontal margin to match sign-up styles */
+    padding: 3px 10px; /* Adjusting padding to ensure fitting within 40px header height */
+    border-radius: 20px; /* Maintaining rounded corners */
+    overflow: hidden; /* Hide overflow */
+    position: relative; /* Relative positioning */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: transform 0.3s ease; /* Smooth transition for interactive states */
+    font-size: 0.95em;
+    line-height: 1.8; 
+}
+
+.signup-button-container {
+    display: inline-flex; /* Alignment with the button itself */
+    align-items: center; /* Center alignment vertically */
+    justify-content: center; /* Center content horizontally if needed */
+    margin: 0 10px; /* Corrected margin for better alignment */
+}
+
+.gradient-button:hover {
+    transform: scale(1.05);
+}
+  
+.gradient-button:active {
+    transform: scale(0.95);
+}
+
+.button-text {
+    position: relative;
+    z-index: 2; /* Ensure text is above the gradient */
+}
+
+@keyframes waveEffect {
+    0%, 100% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: -150% 50%;
+    }
+}
+
+  
+  .gradient-background {
+      background-size: 400% 100%; /* This can remain as is, but ensure the gradient is designed to repeat smoothly */
+      background-image: linear-gradient(90deg, #8f14e6 0%, #e614dc 20%, #e61453 40%, #e68414 60%, #e6e614 80%, #8f14e6 100%);
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 1;
+      animation: waveEffect 10s linear infinite;
+  }
