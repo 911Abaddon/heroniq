@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/heroniq/static/css/main.75530fd4.css",
+    "main.js": "/heroniq/static/js/main.a0c24786.js",
+    "static/js/453.e8764f81.chunk.js": "/heroniq/static/js/453.e8764f81.chunk.js",
+    "static/media/logo.jpeg": "/heroniq/static/media/logo.41fecabcdc2abd20f20a.jpeg",
+    "index.html": "/heroniq/index.html",
+    "main.75530fd4.css.map": "/heroniq/static/css/main.75530fd4.css.map",
+    "main.a0c24786.js.map": "/heroniq/static/js/main.a0c24786.js.map",
+    "453.e8764f81.chunk.js.map": "/heroniq/static/js/453.e8764f81.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75530fd4.css",
+    "static/js/main.a0c24786.js"
+  ]
+}
