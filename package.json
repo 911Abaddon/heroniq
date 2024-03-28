@@ -1,8 +1,7 @@
 {
   "name": "automind-web",
   "version": "0.1.0",
-  "homepage": "https://heroniq.com",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
