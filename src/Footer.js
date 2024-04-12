@@ -22,12 +22,12 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-search">
-          <h5>Search Nudes</h5>
+          <h5>Search </h5>
           <input type="text" placeholder="Search" />
           <ul className="contact-info">
             <li><i className="fas fa-home"></i> patra, Greece</li>
-            <li><i className="fas fa-envelope"></i> giannis@malakas.com Send Nudes</li>
-            <li><i className="fas fa-phone"></i> 6971609471</li>
+            <li><i className="fas fa-envelope"></i> alex@heroniq.com </li>
+            <li><i className="fas fa-phone"></i> 697...</li>
           </ul>
         </div>
         <div className="footer-hours">
